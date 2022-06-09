@@ -1,9 +1,9 @@
 var mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost/movies', {
-  useNewUrlParser: true,
-  useCreateIndex: true,
-  useUnifiedTopology: true
+mongoose.connect('mongodb://localhost/movies_codealong', {
+  // useNewUrlParser: true,
+  // useCreateIndex: true,
+  // useUnifiedTopology: true
 });
 
 // shortcut to mongoose.connection object
